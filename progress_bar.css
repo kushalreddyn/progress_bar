@@ -1,0 +1,109 @@
+*
+            {
+                margin: 0px;
+            }
+            .page
+            {
+                width: 100%;
+                height: 100vh;
+            }
+            .title
+            {
+                color: white;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 100px;
+                font-weight: bold;
+                text-shadow: -3px 0px rgb(158, 157, 157), 3px 0px rgb(158, 157, 157), 0px 3px rgb(158, 157, 157), 0px -3px rgb(158, 157, 157);
+            }
+            .element
+            {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            .progress_bar
+            {
+                -webkit-appearance: none;
+                width: 50%;
+                height: 15%;
+            }
+            progress::-webkit-progress-bar 
+            {
+                box-shadow: 0px 0px 5px 0px rgb(111, 217, 243);
+                background-color: #eeeeee;
+                border-radius: 30px;
+            }
+            progress::-webkit-progress-value 
+            {
+                background-image: linear-gradient(to right, rgb(1, 132, 255), rgba(248, 64, 64, 0.966));
+                border-radius: 30px 30px 30px 30px;
+            }
+            .buttons
+            {
+                height: 10%;
+                width: 30%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            .but
+            {
+                height: 60%;
+                width: 25%;
+                border: 0px solid;
+                color: white;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: bolder;
+                font-size: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .add
+            {
+                background-color: rgb(1, 132, 255);
+            }
+            .add:hover
+            {
+                background-color: rgb(3, 53, 100);
+                transition: 0.7s;
+            }
+            .sub
+            {
+                background-color:rgba(248, 64, 64, 0.966);
+                transition: 0.2s;
+            }
+            .sub:hover
+            {
+                background-color: rgba(202, 14, 14, 0.966);
+                transition: 0.2s;
+            }
+            .inputb
+            {
+                width: 30%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-size: 100%;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: rgb(13, 99, 228);
+            }
+            #inputbox
+            {
+                margin: 10px;
+                width: 60%;
+                height: 40%;
+                background-color: #eeeeee;
+                border: 0px solid grey;
+                border-bottom: 3px solid grey;
+                text-align: center;
+                font-size: 100%;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: rgb(3, 53, 100);
+            }
